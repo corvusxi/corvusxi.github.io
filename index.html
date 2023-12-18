@@ -9,7 +9,8 @@
   <div class="centre">
     <h4>K. Rubiano</h4>
     <ul class="clearfix">    
-      <li><h3><a href="#">Phase 1</a></h3><div class="date">November 27, 2023</div></li>
+      <li><h3><a href="#phase-2">Phase 2</a></h3><div class="date">December 18, 2023</div></li>
+      <li><h3><a href="#phase-1">Phase 1</a></h3><div class="date">November 27, 2023</div></li>
     </ul>
   </div>
 </nav>
@@ -17,11 +18,46 @@
 <main>
   
 <article>
+
+<h1><div id="phase-2">Phase 2</div></h1>
+<p>A few days after posting the previous blog post, lectures covered data visualization and it reminded me how impractical pie charts are! I think they may have been (correctly) phased out of existence
+as I could not recall the last time that I saw one. In any case, I did a cursory search for a good use for a pie chart, or even a fun one, but no dice on FiveThirtyEight and the like. Then, I considered
+recreating the classic <a href="https://flowingdata.com/2014/12/01/pie-chart-pyramid/" target="new">pyramid pie chart</a> in seaborn, but couldn&apos;t exactly figure out how to rotate it to get same effect.
+Despite my background in User Experience, data visualization is new to me. Kernel Density Estimate, Heatmap, and Hexbin look visually appealing to me, but not sure yet how well they display data and hoping that they do!
+<p>Moving to Phase 2, as someone with a little experience in MySQL and PostgreSQL, SQLite is new and its slight differences are bit confusing for me. For example, 
+  I recently learned that <code>unsigned</code> doesn&apos;t work in SQLite because the database cannot store 64-bit integers in it. Instead, you can run something like:
+<br><br><code>CREATE TABLE my_table (<br>
+id INTEGER PRIMARY KEY,<br>
+number INTEGER CHECK  (number >= 0)<br>
+);</code><br><br>
+That seems a little weird to me? A friend suggested to me that I focus on Snowflake for better data structuring and I&apos;d like to look into it when I have more time.
+My learning productivity schedule from Phase 1 is mostly the same idea, with Python insight changed to statistics insight. Learning and reviewing Python is a skill that I still want to hone,
+but priorities are being shifted. Thinking that I&apos;d like to go through LinkedIn Learning&apos;s Python Essential Training again near the end of my course to display its certificate on my profile.
+The new books on my agenda are:
+<ul>
+<li><a href="https://www.oreilly.com/library/view/head-first-statistics/9780596527587/" target="new">Head First Statistics</a> by Dawn Griffiths</li>
+<li><a href="https://www.oreilly.com/library/view/statistics-in-a/9781449361129/" target="new"></a>Statistics in a Nutshell, 2nd Edition</a> by Sarah Boslaugh</li>
+</ul>
+Numbers is still on my reading list because I think way too much about primes and my commute was suddenly taken over by a book about quantum physics, What is Real? Not exactly into entering quantum computing, but it was <em>very</em> cool to learn about.
+<p>DataCamp account was deleted in petty revenge after this exercise, where I also tried <code>git &ndash;&ndash;v</code>:<br>
+<img src="datacamp-is-bad.png" alt="How in the world is this incorrect."></p>
+<p>A personal project that I am thinking about for the future is analyzing data for the ideal weight for someone of my size. 
+I am thinking of looking at Kaggle for female Olympians competing in taekwondo if such dataset is available and usable, with an aim to look at numbers at the lower end of the 25% quartile as I don't exactly have the regiment and advantages that these athletes have.
+<p class="post-end clearfix">December 18, 2023<span>corvusxi.github.io</span></p>
+</div>
+
+<hr>
     
-<h1>Phase 1</h1>
-<p>My path to data science begins with my background in both Graphic Design and User Experience, and decided the field would be an excellent compliment for my career path. It is, and I continue it hopes to be, an excellent challenge as well. Visuals and user interfaces are my current strengths. From that, I understand users from qualitative standpoint through user interviews and creating personas. Quantitative data is a new field for me, and the large set of information would be great for the user research branch. Near or after the completion of this course, I’d like to bring that data into Tableau, or learn Power Bi.</p>
+<h1><div id="phase-1">Phase 1</div></h1>
+<p>My path to data science begins with my background in both Graphic Design and User Experience, and decided the field would be an excellent compliment for my career path.
+It is, and I continue it hopes to be, an excellent challenge as well. Visuals and user interfaces are my current strengths.
+From that, I understand users from qualitative standpoint through user interviews and creating personas.
+Quantitative data is a new field for me, and the large set of information would be great for the user research branch.
+Near or after the completion of this course, I’d like to bring that data into Tableau, or learn Power Bi.</p>
 <blockquote>Mastery is always a struggle for balance. - Maria Konnikova, The Biggest Bluff</blockquote>
-<p>One of my initial challenges is that I often feel that my time management skill needs incredible improvement with my full schedule for this 15 week course. I’d really like to establish learning habits for certification success. On productive days, this can include:
+<p>One of my initial challenges is that I often feel that my time management skill needs incredible improvement
+  with my full schedule for this 15 week course. I&apos;d really like to establish learning habits for certification success.
+  On productive days, this can include:
     <ul><li>Watch at least one relevant video on LinkedIn Learning.
       <li>Study at least one Python informative on the O'Reilly website. Currently, it's the book Head First Python by Paul Barry.
         <li>Clear one step in the freeCodeCamp Data Analysis With Python course.
