@@ -9,6 +9,7 @@
   <div class="centre">
     <h4>K. Rubiano</h4>
     <ul class="clearfix">    
+      <li><h3><a href="#phase-3">Phase 3</a></h3><div class="date">January 16, 2024</div></li>
       <li><h3><a href="#phase-2">Phase 2</a></h3><div class="date">December 18, 2023</div></li>
       <li><h3><a href="#phase-1">Phase 1</a></h3><div class="date">November 27, 2023</div></li>
     </ul>
@@ -18,6 +19,39 @@
 <main>
   
 <article>
+
+  <h1><div id="phase-3">Phase 3</div></h1>
+<p>For a little challenge, I learned how to web scrape! The phase 2 project involved exploring multiple datasets so that a company that created a new movie studio can decide on their trajectory
+  of movies to make. I noticed the supplied datasets were prior to 2020 and I was curious what the status of movies were post COVID-19, so I wanted to
+  get that additional data for more current information.</p>
+<p>From my options, IMDB required an expensive license to access the API. Rotten Tomatoes’ API is complicated to access. Meanwhile, the Movie Database
+  and the Numbers asked to create a free account to access their websites’ API and who has time for that. That is so much effort. The remaining dataset,
+  Box Office Mojo, has robots.txt that allows scraping within its website compliances, so that is what I went forward with.</p>
+<p>My starting guide was Ryan Mitchell’s <a href=”https://www.linkedin.com/learning/web-scraping-with-python/how-to-learn-to-stop-worrying-and-love-the-bot?u=73722380” target=”new”>Web Scraping with Python</a> course on LinkedIn Learning. I really like her other Python courses and I’ve been eyeing the new edition of her book, <a href=”https://www.oreilly.com/library/view/web-scraping-with/9781098145347/” target=”new”>Web Scraping with Python, 3rd Edition</a> for a few months already too.
+  She uses Scrapy, so that is what I installed. I’d like to look into Beautiful Soup as well after the course.</p>
+<p>The first Scrapy challenge involved a replicated page from Internet Engineering Task Force that was cleaned up and had some tags inserted for
+  practice. From my experience with web design, I was already familiar with using Inspect Element to check the source code, but learning about copying
+  the XPath was completely new to me. I was also warned to avoid looking at the CSS as XPath is much better for web scraping in the long term. Through
+  this challenge, I became familiar with running Terminal though VS Code, which despite being right there, I never ran in tandem with
+  scripting Python and editing directories before.</p>
+<p>After compiling my own code from relaying what I learned from the LinkedIn Learning course to run Scrapy on Box Office Mojo, I found a Medium
+  post that walkthroughs the same process. I had some doubts if the XPath’s were still the same 3 years later, but after cross referencing, I was glad
+  to know that the author and I arrived at the same conclusions. It was rewarding and very cool to see the outputted CSV to know my web scraping was
+  successful!</p>
+  
+<p>My additional learning materials this phase:<ul>
+<li><a href=”https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/” target=”new”>Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 3rd Edition</a> by Aurélien Géron</li>
+<li><a href=”https://www.linkedin.com/learning/machine-learning-with-scikit-learn/what-is-supervised-learning?u=73722380” target=”new”>Machine Learning with scikit-learn</a> on LinkedIn Learning</li>
+</ul></p>
+  
+<p>Both of these materials reference the Iris data set which has appeared so often in my learning that I started getting curious what the story
+  behind it is. Turns out that the detective work was done in 2021 in <a href=”https://academic.oup.com/jrssig/article/18/6/26/7038520” target=”new>
+    Significance</a> journal. I concluded that the reason why machine learning is useful is because I'd probably still have zero idea how to
+    differentiate these three flowers out in the wild if I saw them.</p>
+<p class="post-end clearfix">January 16, 2024<span>corvusxi.github.io</span></p>
+</div>
+
+<hr>
 
 <h1><div id="phase-2">Phase 2</div></h1>
 <p>A few days after posting the previous blog post, lectures covered data visualization and it reminded me how impractical pie charts are! I think they may have been (correctly) phased out of existence
